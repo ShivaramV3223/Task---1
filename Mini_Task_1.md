@@ -119,7 +119,7 @@ It also shows the humidity and temperature in the LCD display
 ## Demonstrations:
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121475085-9d131f00-c9e2-11eb-9e20-1db13e3f4299.gif)
 
-##Block Diagram:
+## Block Diagram:
 ![Screenshot 2021-06-10 122240](https://user-images.githubusercontent.com/75152245/121481994-4dd0ec80-c9ea-11eb-829c-d654bbed1075.jpg)
 
 
@@ -128,6 +128,29 @@ The photoresistors are placed at the corners of the solar panel to detect the am
 The micro-controller then processes the data and uses the servo motors and stepper motors to allign in a direction that maximises the amount of  sunlight that falls on the panel.
 In addition to this temperature and humidity sensors are connected to the micro-controller, which sends information to the micro-controller.
 The micro-controller displays the values in the LCD display.
+
+# 5) Smartphone connected door lock system
+The objective of this project is to control the door lock of the house with a mobile app.
+
+## Required components:
+* Raspberry pi
+* High Torque Servo Tower pro MG995R
+* Jumper wires
+* LED
+* Spark Fun Pushbutton
+
+## Demonstration:
+
+https://user-images.githubusercontent.com/75152245/121541544-06b41d00-ca25-11eb-8c08-155c25a8a1f0.mp4
+
+## Description:
+The door lock is first connected with the high torque servo motor, which moves the lock when desired.
+The servo is connected to the Raspberry Pi board along with the an LED to show whether its locked or not.
+The Raspberry Pi has a builtin WIFI which is linked to the smartphone through a software named 'Blynk'.
+Multiple smart phones can be linked to the board through the software.
+Using the app if  you press the unlock button, it transmits the signal to the Raspberry Pi which then operates the Servo to unlock the door.
+
+
 
 
 
