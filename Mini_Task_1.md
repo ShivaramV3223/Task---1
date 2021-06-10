@@ -96,7 +96,29 @@ The model is included as a data array and run by the interpreter. We will create
 ### Detection Responder:
 The detection responder takes the output from the model and triggers the corresponding task here it is to on the LED when person is detected.
 
-# 4)
+# 4) Dual Axis Solar Panel
+
+## Objective:
+To maximise the efficiency of solar panels by moving them and alligning them in the direction of maximum sunlight. 
+It also shows the humidity and temperature in the LCD display
+
+## Required Components:
+* Solar Panel
+* Micro-controller
+* DC Motor
+* Humidity sensor
+* Photo resistors
+* Resistors
+* Transistors
+* Servo motor
+* Temperature sensor
+* Rain sensor
+* Cable and connectors
+* LEDs
+
+## Demonstrations:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121475085-9d131f00-c9e2-11eb-9e20-1db13e3f4299.gif)
+
 
 
 
