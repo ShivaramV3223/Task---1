@@ -28,3 +28,4 @@ As the inference is run multiple times a second, it regonises on an average whet
 ### Command Responder:
 If a command is heard, depending on the wake word heard, its corresponding task is triggered (here the task is to light an led, if the heard word is yes it makes the led go on if 
 it is no it makes the led go off.
+
