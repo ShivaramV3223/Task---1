@@ -119,6 +119,16 @@ It also shows the humidity and temperature in the LCD display
 ## Demonstrations:
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121475085-9d131f00-c9e2-11eb-9e20-1db13e3f4299.gif)
 
+##Block Diagram:
+![Screenshot 2021-06-10 122240](https://user-images.githubusercontent.com/75152245/121481994-4dd0ec80-c9ea-11eb-829c-d654bbed1075.jpg)
+
+
+## Description:
+The photoresistors are placed at the corners of the solar panel to detect the amount of sunlight that falls on the panel and sends the data to the micro-controller.
+The micro-controller then processes the data and uses the servo motors and stepper motors to allign in a direction that maximises the amount of  sunlight that falls on the panel.
+In addition to this temperature and humidity sensors are connected to the micro-controller, which sends information to the micro-controller.
+The micro-controller displays the values in the LCD display.
+
 
 
 
