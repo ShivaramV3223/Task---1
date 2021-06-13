@@ -141,7 +141,8 @@ The objective of this project is to control the door lock of the house with a mo
 
 ## Demonstration:
 
-https://user-images.githubusercontent.com/75152245/121792127-ddef7b80-cc0e-11eb-9b6b-5ba0de4867a3.mp4
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121805196-c55f7f80-cc67-11eb-8665-64852a3f490b.gif)
+
 
 
 ## Description:
