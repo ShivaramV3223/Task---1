@@ -232,6 +232,31 @@ The objective in this project is to build a arm which can hold and lift things b
 ## Description:
 The structure of the arm is built from the acrlyic sheets. The servos are mounted at the joints so that we could move the parts of the arm. Through board and mobile are connected through the Blynk software through which, we can send the instructions like to turn right or leftor pick.
 
+# 10) Quadruped Robot
+The objective is to build a 4 legged dynamic robot which walks like four legged animals and responds to the instructions provided.
+
+## Required components:
+* Micro-controllers(one acts as brain and the other one for writing signals)
+* IMU sensor
+* Servo motors
+* bulk converter
+* Batteries for power supply
+* controller
+
+## Image:
+![Screenshot 2021-06-13 091625](https://user-images.githubusercontent.com/75152245/121794843-36cc0d80-cc29-11eb-9882-4aef55075ef6.jpg)
+## Demonstration:
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121794979-6891a400-cc2a-11eb-83f6-c247407c5cb5.gif)
+
+## Parts of the project:
+![Screenshot 2021-06-13 085128](https://user-images.githubusercontent.com/75152245/121795052-abec1280-cc2a-11eb-9a5d-7727191ff4db.jpg)
+
+## Description:
+As mentioned there are two micro-controllers, one acts as the brain for the quadruped bot and the other one acts as the mediator between other parts and the brain. Here we are controlling the bot through a game controller so we require WIFI for the brain micro-controller. The datas from the IMU sensor are collected which is used to maintain the stability of the quadruped bot. There are 3 servo motors in each leg which helps in the motion of the quadruped. According to information from the controller and the IMU sensor the brain as been programmed to take decision and sends the instructions to the second micro-controller which in turn sends  instructions to the servos which causes the required / desired movement.
+
+
+
 
 
 
