@@ -275,6 +275,23 @@ The objective is to build a bot which moves and captures images for inspecting d
 We are building a car like setup which is controlled by a game controller. Camera modules are attached to the body which provides us the information about what is around or bot.
 The micro-controller receives information from the controller and makes the bot move in the desired way. The input from the camera module is transmitted to the user through the micro-controller.
 
+# 12) Hand Gesture Controller
+This project aims at controlling applications from a distance using the hand gestures. Lets see how it works.
+
+## Required components:
+* nRF24L01 Transceiver Module.
+* ADXL335 Accelerometer.
+* Arduino Pro Mini.
+
+## Demonstration:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121796614-0c358100-cc38-11eb-8534-4e78a3075d50.gif)
+
+## Description:
+The nRF24L01 Transceiver module allows two or more Arduino board to communicate with each other wirelessly. A address is created for the nRF24L01 modules to communicate with each other. The important component is the 3 axis accelerometer, which calculates the static acceleration due to gravity while tilting the hand. The Arduino Pro mini acts as the master device which receives signals from the accelerometer and sends it to the transceiver module. The transceiver module sends the information to appilication which as to be controlled by the hand gestures. The application works by comparing the values of accelerometer with the min and max value for an action.
+
+
+
+
 
 
 
