@@ -289,6 +289,11 @@ This project aims at controlling applications from a distance using the hand ges
 ## Description:
 The nRF24L01 Transceiver module allows two or more Arduino board to communicate with each other wirelessly. A address is created for the nRF24L01 modules to communicate with each other. The important component is the 3 axis accelerometer, which calculates the static acceleration due to gravity while tilting the hand. The Arduino Pro mini acts as the master device which receives signals from the accelerometer and sends it to the transceiver module. The transceiver module sends the information to appilication which as to be controlled by the hand gestures. The application works by comparing the values of accelerometer with the min and max value for an action.
 
+# 13) Motion Detection with Photo capture
+The objective of the project is to capture photos with the camera module when a motion is detected.
+
+## Required components:
+
 
 
 
