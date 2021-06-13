@@ -293,6 +293,39 @@ The nRF24L01 Transceiver module allows two or more Arduino board to communicate 
 The objective of the project is to capture photos with the camera module when a motion is detected.
 
 ## Required components:
+* Raspberry Pi
+* Jumper wires
+* breadboard
+* Camera module
+* Pushbutton
+* HS-SR501 PIR Motion sensor
+
+## Circuit Diagram(Excluding Camera module):
+![Screenshot 2021-06-13 150745](https://user-images.githubusercontent.com/75152245/121802306-364b6b00-cc59-11eb-802e-71f1eafff905.jpg)
+
+
+
+## Description:
+In this project motion sensor plays the major role. When the motion sensor detects a motion , it sends the information to the Raspberry Pi controller. The controller triggers the camera module to take an image and send it to the user.
+
+# 14) Auto Targeting nerf turret
+The objective is to create a nerf turret which locates a target and shoots them. Here target is provided by a red laser.
+
+## Required components:
+* Micro-controller (with bluetooth/ WIFI inbuilt)
+* nerf gun setup
+* servo motors
+* camera module
+
+## Demonstration:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121803596-0a7fb380-cc60-11eb-9426-dabb6f85a176.gif)
+
+## Description:
+The camera module provides the input as image to the micro-controller. The micro-controller processes the image and follows a red laser dot by computer vision. The target is given by the laser dot. If it coincides with the aim of the turret then it shoots automatically. The micro-controller moves the aim and camera with servo motors accordingly it follows the laser dot.
+
+
+
+
 
 
 
