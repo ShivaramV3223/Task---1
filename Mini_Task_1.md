@@ -141,7 +141,10 @@ The objective of this project is to control the door lock of the house with a mo
 
 ## Demonstration:
 
-https://user-images.githubusercontent.com/75152245/121541544-06b41d00-ca25-11eb-8c08-155c25a8a1f0.mp4
+
+
+
+
 
 ## Description:
 The door lock is first connected with the high torque servo motor, which moves the lock when desired.
@@ -149,6 +152,9 @@ The servo is connected to the Raspberry Pi board along with the an LED to show w
 The Raspberry Pi has a builtin WIFI which is linked to the smartphone through a software named 'Blynk'.
 Multiple smart phones can be linked to the board through the software.
 Using the app if  you press the unlock button, it transmits the signal to the Raspberry Pi which then operates the Servo to unlock the door.
+
+# 6) IOT based Irrigation System
+
 
 
 
