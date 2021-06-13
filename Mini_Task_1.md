@@ -253,7 +253,27 @@ The objective is to build a 4 legged dynamic robot which walks like four legged 
 ![Screenshot 2021-06-13 085128](https://user-images.githubusercontent.com/75152245/121795052-abec1280-cc2a-11eb-9a5d-7727191ff4db.jpg)
 
 ## Description:
-As mentioned there are two micro-controllers, one acts as the brain for the quadruped bot and the other one acts as the mediator between other parts and the brain. Here we are controlling the bot through a game controller so we require WIFI for the brain micro-controller. The datas from the IMU sensor are collected which is used to maintain the stability of the quadruped bot. There are 3 servo motors in each leg which helps in the motion of the quadruped. According to information from the controller and the IMU sensor the brain as been programmed to take decision and sends the instructions to the second micro-controller which in turn sends  instructions to the servos which causes the required / desired movement.
+As mentioned there are two micro-controllers, one acts as the brain for the quadruped bot and the other one acts as the mediator between other parts and the brain. Here we are controlling the bot through a game controller so we require WIFI/ Bluetooth for the brain micro-controller. The datas from the IMU sensor are collected which is used to maintain the stability of the quadruped bot. There are 3 servo motors in each leg which helps in the motion of the quadruped. According to information from the controller and the IMU sensor the brain as been programmed to take decision and sends the instructions to the second micro-controller which in turn sends  instructions to the servos which causes the required / desired movement.
+
+# 11) Inspector Bot
+The objective is to build a bot which moves and captures images for inspecting dark areas where we can't go and inspect.
+
+## Required components:
+* Micro-controller (with in built WIFI)
+* Camera modules
+* LEDs
+* resistors
+* gearhead motors
+* Wheels
+* mini usb camera
+* motor drivers
+
+## Image:
+![Screenshot 2021-06-13 100357](https://user-images.githubusercontent.com/75152245/121795642-4569f300-cc30-11eb-88be-7d067ae5cfbc.jpg)
+
+## Description:
+We are building a car like setup which is controlled by a game controller. Camera modules are attached to the body which provides us the information about what is around or bot.
+The micro-controller receives information from the controller and makes the bot move in the desired way. The input from the camera module is transmitted to the user through the micro-controller.
 
 
 
