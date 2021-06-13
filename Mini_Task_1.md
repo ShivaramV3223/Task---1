@@ -141,9 +141,7 @@ The objective of this project is to control the door lock of the house with a mo
 
 ## Demonstration:
 
-
-
-
+https://user-images.githubusercontent.com/75152245/121792127-ddef7b80-cc0e-11eb-9b6b-5ba0de4867a3.mp4
 
 
 ## Description:
@@ -154,6 +152,73 @@ Multiple smart phones can be linked to the board through the software.
 Using the app if  you press the unlock button, it transmits the signal to the Raspberry Pi which then operates the Servo to unlock the door.
 
 # 6) IOT based Irrigation System
+We are building an IOT system which detects the soil moisture and drives an airpump which pumps water to the plants.
+
+## Required Components:
+* Microcontroller
+* Aquzrium Air Pump
+* Container for storing water
+* DF robot soil moisture sensor
+
+## Demonstration:
+![WhatsApp Video 2021-06-13 at 06 26 00](https://user-images.githubusercontent.com/75152245/121792279-6f132200-cc10-11eb-9466-572f8a95ca02.gif)
+
+## Description:
+The soil moisture sensor is the core part of this project. The soil moisture sensor sends information about the soil moisture to the micro-controller.
+The micro-controller processes the information and finds whether the moisture level is less then the recommened level. If it is so then it turns on the aquarium air pump, which is attached to the reservoir. As the air pump blows air inside the reservoir the water is pushed outside through the other end.
+The water flow continues untill the moisture level reaches the required level.
+
+# 7) IOT Motion Controlled Servo
+The objective is to  mimic the hand movements by a servo motors. Lets dive deep into this.
+
+## Required components:
+* Raspberry Pi
+* Leap motion controller
+* 5V power supply
+* I2C enabled PWM driver
+* 4 Micro servo motors
+* 4 Micro servo mounts
+* LEDs and resistors
+* Hook wires
+
+## Demonstration:
+
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121793624-91ac3780-cc1e-11eb-9a4b-29bf0ed1083f.gif)
+
+
+## Block Diagram:
+![Screenshot 2021-06-13 071221](https://user-images.githubusercontent.com/75152245/121792784-bac8ca00-cc16-11eb-9a89-b6a8ea593cc1.jpg)
+
+## Description:
+The computer with the Leap motion controller is setup to publish data to the internet. The Raspberry Pi receives the data from the internet.
+Here Pubnub is used as communication layer between the computer and Raspberry Pi. Raspberry Pi , from the received data talks to the other parts through I2C bus to accomplish the task. The ATMega328p matrix driver circuit controls the matrix of RBG matrix. The servo  motor driver receives information through I2C and controlls the 4 servos.
+
+# 8) Arduino Data Glasses
+This project aims at creating a device which mounts on the glass, which provides ease of knowing informations around us without turning around.
+
+## Required Components:
+* Arduino micro
+* Mirror
+* Bluetooth module
+* Charging circuit
+* micro oled display
+* LiPo battery
+* acrlyic plano convex lens
+
+## Demonstration:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121793582-1c406700-cc1e-11eb-831b-ddb43b96b2cc.gif)
+
+## Description:
+There may be works in which we have to look to a device often from the workplace,data glasses solve this issue. You can veiw the details you need infornt of your eyes without moving to a particular place. The Arduino micro in the data glass collects information from the bluetooth module and manipulates it. After manipulation it displays it through the oled display. The image from the oled gets reflected by the mirror placed and it passes through the planoconvex lens and after which it reaches the reflector where it gets reflected to the eye. The reflected ray makes an virtual image at the reflector.
+
+
+
+
+
+
+
 
 
 
