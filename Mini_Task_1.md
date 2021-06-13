@@ -29,7 +29,7 @@ As the inference is run multiple times a second, it regonises on an average whet
 If a command is heard, depending on the wake word heard, its corresponding task is triggered (here the task is to light an led, if the heard word is yes it makes the led go on if 
 it is no it makes the led go off.
 
-# 2) LIDAR Based Self Driving Car
+# 2) Obstacle based Self Driving Car
  The objective of this project is to make a miniature car which uses LIDAR to detect the obstacles and avoid them while travelling. 
  LIDAR is a method which is used to determine the range of distance of the obstacles, by emiting laser on the target object and measuring the time for receiving the reflected ray.
  
