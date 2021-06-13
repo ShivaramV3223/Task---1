@@ -213,6 +213,28 @@ This project aims at creating a device which mounts on the glass, which provides
 ## Description:
 There may be works in which we have to look to a device often from the workplace,data glasses solve this issue. You can veiw the details you need infornt of your eyes without moving to a particular place. The Arduino micro in the data glass collects information from the bluetooth module and manipulates it. After manipulation it displays it through the oled display. The image from the oled gets reflected by the mirror placed and it passes through the planoconvex lens and after which it reaches the reflector where it gets reflected to the eye. The reflected ray makes an virtual image at the reflector.
 
+# 9) Wifi controlled Robotic Arm:
+The objective in this project is to build a arm which can hold and lift things by instructions through wifi.
+
+## Required components:
+* Servo motors(9)
+* Raspberry Pi(built in WIFI)
+* acrylic sheets
+* fixings
+
+## Image:
+![Screenshot 2021-06-13 084358](https://user-images.githubusercontent.com/75152245/121794125-8a3b5d00-cc23-11eb-9b93-5eb9c1b58881.jpg)
+
+
+## Circuit Diagram:
+![Screenshot 2021-06-13 083907](https://user-images.githubusercontent.com/75152245/121794060-db971c80-cc22-11eb-9954-138c86d92997.jpg)
+
+## Description:
+The structure of the arm is built from the acrlyic sheets. The servos are mounted at the joints so that we could move the parts of the arm. Through board and mobile are connected through the Blynk software through which, we can send the instructions like to turn right or leftor pick.
+
+
+
+
 
 
 
