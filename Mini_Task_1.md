@@ -1,11 +1,11 @@
 # 1) Wake Word Detection
 The main objective of the project is to trigger a task when the wake word is said. Here we are going to control the state of an led using the wake words "yes" for 'on' and "no" for 
-'off' , using tinyml on esp32.
+'off' , using tinyml on micro-controller.
 
 ## Required components
 * Microphone
 * LEDs(there are inbuilt LEDs)
-* esp32
+* micro-controller
 
 ## Parts of the project:
 ![Screenshot 2021-06-10 074602](https://user-images.githubusercontent.com/75152245/121454210-06ce0180-c9c0-11eb-8c18-c8160d8ccc64.jpg)
