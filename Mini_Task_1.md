@@ -323,6 +323,23 @@ The objective is to create a nerf turret which locates a target and shoots them.
 ## Description:
 The camera module provides the input as image to the micro-controller. The micro-controller processes the image and follows a red laser dot by computer vision. The target is given by the laser dot. If it coincides with the aim of the turret then it shoots automatically. The micro-controller moves the aim and camera with servo motors accordingly it follows the laser dot.
 
+# 15) Mind controlled drone
+The objective is to fly a drone which is purely controlled by mind.
+
+## Required components:
+* Micro-controller
+* Mindwave neuralsky
+* Mini racing drone
+* Capacitors
+* Resistors
+* Jumper wires
+
+## Demonstration:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75152245/121804200-d22da480-cc62-11eb-963a-b15cfa5e1d79.gif)
+
+## Description:
+In this project mindwave neuralsky plays the important role. It helps to connect the drone with the mind. The neuralsky takes mindwaves as input and converts into an API which can be connected to the drone through code.
+
 
 
 
